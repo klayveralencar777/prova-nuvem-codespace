@@ -3,7 +3,14 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "ritwickdey.liveserver"
+                "ritwickdey.liveserver",
+                "formulahendry.auto-close-tag",
+                "sidthesloth.html5-boilerplate",
+                "ecmel.vscode-html-css",
+                "ms-vscode.live-server"
+
+
+
             ]
         }
     },
