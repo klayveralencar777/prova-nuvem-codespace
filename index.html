@@ -13,6 +13,7 @@
       <nav>
         <ul>
           <li><a href="#destaque">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
           <li><a href="#produtos">Produtos</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
@@ -26,6 +27,11 @@
       <p>As melhores marcas e os melhores preços para você tocar sua paixão!</p>
       <button id="btnPromo">Ver Promoções</button>
     </div>
+  </section>
+
+  <section id="sobre" class="container">
+    <h3>Sobre a MusicStore</h3>
+    <p>A MusicStore é especializada em oferecer instrumentos musicais de alta qualidade, atendendo músicos de todos os níveis. Nossa paixão é ajudar você a encontrar o som ideal para sua música.</p>
   </section>
 
   <section id="produtos" class="produtos container">
@@ -49,7 +55,21 @@
     </div>
   </section>
 
-  <footer id="contato">
+  <section id="contato" class="container">
+    <h3>Contato</h3>
+    <form id="formContato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required />
+
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="mensagem"></p>
+  </section>
+
+  <footer>
     <div class="container">
       <p>Contato: contato@musicstore.com | (11) 1234-5678</p>
       <p>© 2025 MusicStore - Todos os direitos reservados</p>
